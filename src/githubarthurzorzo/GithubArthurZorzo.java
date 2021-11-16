@@ -6,6 +6,7 @@
 package githubarthurzorzo;
 
 import java.util.Scanner;
+import javax.swing.JOptionPane;
 
 /**
  *
@@ -21,9 +22,10 @@ public class GithubArthurZorzo {
         
         String nome;
         
-        System.out.println("Digite seu nome");
-        nome = leia.nextLine();
+        //System.out.println("Digite seu nome");
+        nome = JOptionPane.showInputDialog("Qual é o seu nome");
         
-        System.out.println("Bem vindo ao GitHub "+nome);
+        JOptionPane.showMessageDialog(null, "Bem vindo ao GitHub"+nome);
+        //System.out.println("Bem vindo ao GitHub "+nome);
     }
 }
