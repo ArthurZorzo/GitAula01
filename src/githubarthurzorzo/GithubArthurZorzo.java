@@ -5,7 +5,7 @@
  */
 package githubarthurzorzo;
 
-import java.util.Scanner;
+//import java.util.Scanner;
 import javax.swing.JOptionPane;
 
 /**
@@ -18,12 +18,12 @@ public class GithubArthurZorzo {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Scanner leia = new Scanner(System.in);
+        //Scanner leia = new Scanner(System.in);
         
         String nome;
         
         //System.out.println("Digite seu nome");
-        nome = JOptionPane.showInputDialog("Qual é o seu nome");
+        nome = JOptionPane.showInputDialog(null,"Qual é o seu nome");
         
         JOptionPane.showMessageDialog(null, "Bem vindo ao GitHub"+nome);
         //System.out.println("Bem vindo ao GitHub "+nome);
